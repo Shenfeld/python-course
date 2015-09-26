@@ -10,8 +10,8 @@ for index, number in enumerate(numbers):
 nechet.sort()
 nechet.reverse()
 chet.sort()
-result=' '
-for index in range (len(chet)):
-    result=result+str(chet[index])+' '
-    result=result+str(nechet[index])+' '
+result = ' '
+for index in range(len(chet)):
+    result = result + str(chet[index])+' '
+    result = result + str(nechet[index])+' '
 print(result)
