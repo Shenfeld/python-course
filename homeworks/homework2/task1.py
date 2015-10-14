@@ -10,4 +10,4 @@ def combinations(n, k):
     for i in range(1, k+1):
         answer = answer * (n-i+1) // i
     return answer
-print(combinations(n, k))# put your python code here
+print(combinations(n, k))

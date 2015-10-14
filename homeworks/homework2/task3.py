@@ -1,5 +1,5 @@
-def euclid(a,b):
-    while a!=0 and b!=0:
+def euclid(a, b):
+    while a != 0 and b != 0:
         if a > b:
             a = a % b
         else:
@@ -8,4 +8,5 @@ def euclid(a,b):
 a, b = input().split(' ')
 a = int(a)
 b = int(b)
-print (euclid(a, b))# put your python code here
+print (euclid(a, b))
+
